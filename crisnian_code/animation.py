@@ -251,7 +251,7 @@ class Animation:
                 new_exp *= exp_base
 
             # add an new line to the clock drawing if there was no jump
-            if k != 0 and g_f.distance_2d(next_proj_center, proj_old_center) < 2:
+            if k != 0 and g_f.distance_2d(next_proj_center, proj_old_center) < 5:
                 pygame.draw.line(drawing_board, color,
                                  next_proj_center, proj_old_center, size)
 

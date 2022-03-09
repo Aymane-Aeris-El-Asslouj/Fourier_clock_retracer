@@ -62,7 +62,7 @@ class Manual:
         """updates manual drawing board by adding a new point"""
 
         if len(self._point_list) > 1:
-            if l_u.c_mod(self._point_list[-1][0]-self._point_list[-2][0]) < 2:
+            if l_u.c_mod(self._point_list[-1][0]-self._point_list[-2][0]) < 5:
                 new_point = l_u.complex_to_board(self._size,
                                                  self._point_list[-1][0])
                 old_point = l_u.complex_to_board(self._size,
@@ -82,7 +82,7 @@ class Manual:
         # manual points with appropriate font
         for point, font in self._point_list:
             if not first:
-                if l_u.c_mod(point - last_point) < 2:
+                if l_u.c_mod(point - last_point) < 5:
                     new_p = l_u.complex_to_board(self._size, point)
                     old_p = l_u.complex_to_board(self._size, last_point)
                     pygame.draw.line(self._drawing, font[0],
