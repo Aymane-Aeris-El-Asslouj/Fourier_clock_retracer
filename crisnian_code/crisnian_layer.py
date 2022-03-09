@@ -100,7 +100,7 @@ class CrisnianLayer(layer.Layer):
                 # load icon if found
                 image = o_i[6]
                 if image is not None:
-                    image = "icons/" + o_i[6] + ".png"
+                    image = os.path.join("icons", o_i[6] + ".png")
 
                 # generate object
                 obj = layer.Button(self, LIGHT_GREY, pos, 10 * o_i[3],
@@ -113,10 +113,10 @@ class CrisnianLayer(layer.Layer):
                 # load icon if found
                 image1 = o_i[6]
                 if image1 is not None:
-                    image1 = "icons/" + o_i[6] + ".png"
+                    image1 = os.path.join("icons", o_i[6] + ".png")
                 image2 = o_i[7]
                 if image2 is not None:
-                    image2 = "icons/" + o_i[7] + ".png"
+                    image2 = os.path.join("icons", o_i[7] + ".png")
 
                 # generate object
                 obj = layer.ToggleButton(self, LIGHT_GREY, pos, 10 * o_i[3],
