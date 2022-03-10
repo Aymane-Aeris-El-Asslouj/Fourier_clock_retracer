@@ -22,6 +22,8 @@
     + You can use the play/pause/restart buttons to watch the clock tracing animation on screen
     + You can also export the clock tracing animation as an MP4 file using the export button
     
+![docs/Crisnian.png](docs/Crisnian.png)
+    
 ## Fourier Analysis
 (Complex) Fourier Analysis is a field of mathematics dedicated to writing complex functions as sums of complex exponentials
 Any complex function that meets certain criteria can be written over an interval as a weighted sum of complex exponentials:
