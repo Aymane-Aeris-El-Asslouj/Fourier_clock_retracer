@@ -1,6 +1,6 @@
-# Crisnian V1.0
+# Fourier clock retracer
 
-+ Crisnian is a software that retraces drawings using stacked clocks
++ This is a software that retraces drawings using stacked clocks
 + It determines what clocks to use using complex Fourier analysis
 + It supports both manual drawing using different colors/brush sizes and importing drawings as path-based SVG files
 + It also supports exporting clock retracing animations as MP4 videos
@@ -48,7 +48,7 @@ Because the drawings are stored as sets of points, they do not form continuous f
 
 ## Code logic
 + GUI
-    + Crisnian's GUI was built using a modified version of PyGUI, a library I made to make layer/object-based GUIs with PyGame
+    + The GUI was built using a modified version of PyGUI, a library I made to make layer/object-based GUIs with PyGame
     + https://github.com/Aymane-Aeris-El-Asslouj/PyGUI
     + Crisnian_layer is the only layer and it contains all the user interface elements along with the software's objects
     + It also displays the manual drawings and animations
